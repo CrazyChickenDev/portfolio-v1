@@ -85,7 +85,7 @@ const Title = styled(motion.h1)`
 `;
 
 const FirstTitle = styled(Title)`
-	font-size: 16px;
+	font-size: 18px;
 	margin: 0.4em 0;
 	color: white;
 	cursor: default;
@@ -122,7 +122,7 @@ const SubTitle = styled(Title)`
 const Description = styled(Title)`
 	padding-top: 2em;
 	width: 690px;
-	font-size: 16px;
+	font-size: 18px;
 	margin: 0;
 	color: white;
 	cursor: default;
@@ -134,12 +134,12 @@ const Description = styled(Title)`
 	@media only screen and (max-width: 450px) {
 		width: 100%;
 		line-height: 32px;
-		font-size: 16px;
+		font-size: 18px;
 	}
 	@media only screen and (max-width: 430px) {
 		width: 100%;
 		line-height: 32px;
-		font-size: 13px;
+		font-size: 18px;
 	}
 `;
 
