@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Github } from '@styled-icons/boxicons-logos';
-import { Email } from '@styled-icons/material-twotone';
+import { Twitter } from '@styled-icons/boxicons-logos';
 import { LinkedinSquare } from '@styled-icons/boxicons-logos';
 import { FilePdf } from '@styled-icons/boxicons-solid';
 
@@ -59,6 +59,7 @@ const Line = styled.div`
 `;
 
 const Sidebar = ({ handleToast }) => {
+	// eslint-disable-next-line
 	const handleClipboardClick = () => {
 		navigator.clipboard.writeText('dannychukz15@gmail.com');
 		handleToast(`Email copy to clipboard! 🥳`);
@@ -82,7 +83,9 @@ const Sidebar = ({ handleToast }) => {
 					</a>
 				</SideIcon>
 				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
-					<Email onClick={handleClipboardClick} />
+					<a href='https://twitter.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
+						<Twitter />
+					</a>
 				</SideIcon>
 				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
 					<a href='https://www.linkedin.com/in/nwaobi-daniel-8b4527187/' target='_blank' rel='noopener noreferrer'>
@@ -92,7 +95,7 @@ const Sidebar = ({ handleToast }) => {
 				<Line />
 			</LeftSideContainer>
 			<RightSideContainer>
-				<SideText>Thank you for visiting my website!</SideText>
+				<SideText>dannychukz15@gmail.com</SideText>
 				<Line />
 			</RightSideContainer>
 		</>
