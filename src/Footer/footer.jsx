@@ -19,7 +19,7 @@ const Footer = () => {
 	return (
 		<Container>
 			<Text>
-				'All these projects are powered by a lot of
+				'My projects are powered by a lot of
 				<span role='img' aria-label='coffe'>
 					{'  '}
 					☕️
