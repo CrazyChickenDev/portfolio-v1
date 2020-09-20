@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import CarbonFootprint from '../assets/carbon-footprint.png';
+import passwordlist from '../assets/passlist.png';
 import MarcoPolo from '../assets/marco-polo.png';
 import Wanteat from '../assets/wanteat.png';
 import NinjaSimulation from '../assets/ninja-simulation.png';
@@ -188,43 +188,44 @@ const AdvancedProjects = ({ isMobile }) => {
 			<Row>
 				<LeftRow text={false}>
 					<ImgContainer>
-						<Img src={CarbonFootprint} alt='carbon-footprint' />
+						<Img src={passwordlist} alt='passlist.png' />
 					</ImgContainer>
 				</LeftRow>
 				<RightRow text={true}>
 					<Card>
-						<Title>Carbon Footprint Calculator</Title>
+						<Title>Passwordlist-Generator</Title>
 						<Description>
-							An open-source project about calculating the carbon foootprint for individuals and small
-							companies.
+						A simple python program that takes in a collection of data given to it, then generates possible password 
+						combinations that can be gotten from those details that were fed into it. This program was created for 
+						educational purposes and as a security research tool.
 						</Description>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>React
+								<Hastag>#</Hastag>Python
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Hooks
+								<Hastag>#</Hastag>VsCode
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Styled-components
+								<Hastag>#</Hastag>Parrot OS
 							</TechItems>
 						</Technology>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>React-three-fiber
+								<Hastag>#</Hastag>Linux OS
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Material-ui
+								<Hastag>#</Hastag>Bash
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
-							<a href='https://github.com/Achiaga/carbon_footprint' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: 'palevioletred' }} transition={{ duration: 0.5 }}>
+							<a href='https://github.com/CrazyChickenDev/Passwordlist-Generator' target='_blank' rel='noopener noreferrer'>
+								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 									<Github />
 								</Button>
 							</a>
-							<a href='https://footprint.now.sh/' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: 'palevioletred' }} transition={{ duration: 0.5 }}>
+							<a href='https://github.io/CrazyChickenDev/Passwordlist-Generator' target='_blank' rel='noopener noreferrer'>
+								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 									<ExternalLinkOutline />
 								</Button>
 							</a>
