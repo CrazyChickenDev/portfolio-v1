@@ -71,7 +71,7 @@ const ImgContainer = styled.div`
 		width: 80%;
 	}
 `;
-
+// eslint-disable-next-line
 const VideoContainer = styled.div`
 	position: absolute;
 	top: 19px;
