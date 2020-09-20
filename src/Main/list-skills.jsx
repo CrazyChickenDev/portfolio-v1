@@ -111,7 +111,7 @@ const Education = () => {
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#VisualBasic
+						#ReactJs
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
@@ -121,29 +121,7 @@ const Education = () => {
 				</TextContainer>
 				<TextContainer>
 					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#Shell
-					</ColumnText>
-				</TextContainer>
-			</SkillsColumn>
-			<SkillsColumn>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}> color={'pink'}>
 						#PHP
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#ReactJs
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}> color={'pink'}>
-						#Canva
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#Linux
 					</ColumnText>
 				</TextContainer>
 			</SkillsColumn>

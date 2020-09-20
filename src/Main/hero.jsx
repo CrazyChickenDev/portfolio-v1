@@ -203,7 +203,7 @@ const Hero = ({ didScroll, handleToast, heroRef }) => {
 		<Container ref={heroRef}>
 			<Content>
 				<Intro>
-					<FirstTitle>Hi! My name is,</FirstTitle>
+					<FirstTitle>Hi!  I'm</FirstTitle>
 					<Title
 						drag
 						dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
