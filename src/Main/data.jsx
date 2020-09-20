@@ -63,7 +63,7 @@ export const dataExperience = {
             link: '',
             title: 'Dog Trainer 🐕',
             date: 'Sep 2013 - May 2015',
-            first: 'I worked as a referee of kids basketball leagues when I was around 15 years while a I played basketball in regional league.',
+            first: 'I worked and helped train our awesome canine friends when I was around 16 years while I was just rounding up High-School.',
         },
     },
 };
