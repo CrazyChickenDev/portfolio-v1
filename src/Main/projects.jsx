@@ -71,7 +71,7 @@ const ButtonBox = styled.div`
 `;
 
 const ButtonContainer = styled.div`
-	position: absolute;
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -91,7 +91,7 @@ const Button = styled(motion.h3)`
 	position: relative;
 	z-index: 2;
 	@media only screen and (max-width: 450px) {
-		font-size: 14px;
+		font-size: 16px;
 	}
 `;
 
@@ -134,7 +134,7 @@ const Projects = ({ projectRef }) => {
 	const handleProjects = (e) => {
 		const { id } = e.target;
 		if (id === 'security') return setShowAdvanced(true);
-		if (id === 'basic') return setShowAdvanced(false);
+		if (id === 'projects') return setShowAdvanced(false);
 		return;
 	};
 
@@ -159,9 +159,9 @@ const Projects = ({ projectRef }) => {
 							whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}
 							transition={{}}
 							onClick={handleProjects}
-							id='basic'>
+							id='projects'>
 							{!showAdvanced && <BackgroundButton layoutId='underline' />}
-							Basic
+							Projects
 						</Button>
 					</ButtonContainer>
 				</AnimateSharedLayout>

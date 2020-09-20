@@ -65,9 +65,7 @@ const HeaderLine = styled.div`
 	height: 2px;
 	min-width: 6%;
 	margin: 0px auto;
-	background-color: white;
-	background: linear-gradient(to right, #ffc200 ${(props) => props.scroll}, white 0);
-	color: ${(props) => (props.isSafari ? 'white' : 'transparent')};
+	background-color: #ffc200;
 	@media only screen and (max-width: 450px) {
 		min-width: 4%;
 	}

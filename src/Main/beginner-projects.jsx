@@ -110,6 +110,8 @@ const Title = styled.h4`
 	padding: 0;
 	color: #ffc200;
 	font-family: 'Calibre', sans-serif;
+	@media only screen and (max-width: 450px) {
+	font-size: 20px;
 `;
 
 const Explanation = styled.p`
@@ -123,6 +125,7 @@ const Explanation = styled.p`
 	font-family: 'Calibre', sans-serif;
 	@media only screen and (max-width: 450px) {
 		padding-bottom: 15px;
+		font-size: 16px;
 	}
 `;
 
@@ -140,7 +143,7 @@ const TechItems = styled.span`
 	font-size: 16px;
 	color: #ffffffbf;
 	@media only screen and (max-width: 450px) {
-		font-size: 16px;
+		font-size: 14px;
 	}
 `;
 
@@ -157,7 +160,7 @@ const ButtonContainer = styled.div`
 const ButtonShow = styled(motion.button)`
 	margin-top: 2em;
 	padding: 0.7em 1em;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 600;
 	color: #1f1f1f;
 	font-family: 'Calibre', sans-serif;
