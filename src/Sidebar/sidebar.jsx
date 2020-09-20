@@ -44,7 +44,7 @@ const SideIcon = styled(motion.div)`
 		text-decoration: none;
 	}
 	svg {
-		width: 30px;
+		width: 20px;
 		cursor: pointer;
 	}
 `;

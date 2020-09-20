@@ -31,7 +31,7 @@ const SideIcon = styled(motion.div)`
 		text-decoration: none;
 	}
 	svg {
-		width: 50px;
+		width: 30px;
 		cursor: pointer;
 	}
 `;
