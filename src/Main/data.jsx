@@ -69,21 +69,21 @@ export const dataExperience = {
 
 export const dataEducation = {
     0: {
-        main: 'Burgos University 🇪🇸',
-        expand: 'Mechanical Engineer Degree',
-        date: '( 2016 / 2020 )',
-        country: 'Spain',
+        main: 'Ogunlade College 🇳🇬',
+        expand: 'Junior Secondary School',
+        date: '( 2009 / 2012 )',
+        state: 'Lagos',
     },
     1: {
-        main: 'Linnaeus University 🇸🇪',
-        expand: 'Mechanical Engineer Degree',
-        date: '( 2017 / 2018 )',
-        country: 'Sweden',
+        main: 'Komfota College 🇳🇬',
+        expand: 'Science (Senior Secondary School)',
+        date: '( 2012 / 2014 )',
+        state: 'Lagos',
     },
     2: {
-        main: 'Kookmin University 🇰🇷',
-        expand: 'Mechanical Engineer Degree',
-        date: '( 2018 / 2019 )',
-        country: 'South Korea',
+        main: 'University of Benin 🇳🇬',
+        expand: 'Bachelor of Engineering in Computer',
+        date: '( 2016 / Present )',
+        country: 'Nigeria',
     },
 };
