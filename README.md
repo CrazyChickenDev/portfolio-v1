@@ -9,10 +9,9 @@
 </p>
 <p align="center">
   <a href="https://app.netlify.com/sites/crazychickendev/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/5c07aa83-582b-478e-a9a6-7341eb0a9484/deploy-status" alt="Netlify Status" />
+    <img src="https://api.netlify.com/api/v1/badges/5c07aa83-582b-478e-a9a6-7341eb0a9484/deploy-status" alt="Netlify Status" /> <img src="https://img.shields.io/github/license/CrazyChickenDev/MyPortfolio" alt="Licence" />
   </a>
 </p>
-
 <div align="center">
   <img alt="Demo" src="https://github.com/CrazyChickenDev/portfolio/blob/master/src/assets/demo.png" />
 </div>
