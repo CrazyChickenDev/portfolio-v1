@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import passwordlist from '../assets/passlist.png';
+import Passwordlist from '../assets/passlist.png';
 import MarcoPolo from '../assets/marco-polo.png';
 import Wanteat from '../assets/wanteat.png';
 import NinjaSimulation from '../assets/ninja-simulation.png';
@@ -188,7 +188,7 @@ const AdvancedProjects = ({ isMobile }) => {
 			<Row>
 				<LeftRow text={false}>
 					<ImgContainer>
-						<Img src={passwordlist} alt='passlist.png' />
+						<Img src={Passwordlist} alt='passlist.png' />
 					</ImgContainer>
 				</LeftRow>
 				<RightRow text={true}>
