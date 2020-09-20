@@ -38,13 +38,13 @@ const SideText = styled.div`
 `;
 
 const SideIcon = styled(motion.div)`
-	padding: 0.5em 0;
+	padding: 0.1em 0;
 	a {
 		color: white;
 		text-decoration: none;
 	}
 	svg {
-		width: 20px;
+		width: 22px;
 		cursor: pointer;
 	}
 `;
@@ -52,8 +52,8 @@ const SideIcon = styled(motion.div)`
 const Line = styled.div`
 	content: '';
 	display: block;
-	width: 2px;
-	height: 50px;
+	width: 1px;
+	height: 70px;
 	margin: 0px auto;
 	background-color: white;
 `;
