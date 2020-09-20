@@ -22,7 +22,7 @@ const Footer = () => {
         Text >
         'These projects are powered by a lot of <
         span role = 'img'
-        aria - label = 'coffee' > { '  ' }☕️ <
+        aria - label = 'coffe' > { '  ' }☕️ <
         /span>
         ' <
         /Text> <
