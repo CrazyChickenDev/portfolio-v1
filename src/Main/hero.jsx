@@ -222,7 +222,7 @@ const Hero = ({ didScroll, handleToast, heroRef }) => {
 					</SubTitle>
 					<Description initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
 						{
-							"I'm a self-taught cyber-security engineer, a computer software engineer by degree🎓 and an open-source enthusiast. I'm 22 years old and I live in Benin City, 🇳🇬. I like building( and designing ) exceptional websites, applications, researching on security, hacking and everything in between.  I speak english 🇬🇧 🇺🇸 fluently."
+							"I'm a self-taught cyber-security engineer, a computer software engineer by degree🎓 and an open-source enthusiast. I'm 22 years old and I live in Benin City, 🇳🇬. I like building(and designing) exceptional websites, applications, researching on security, hacking and everything in between.  I speak english 🇬🇧 🇺🇸 fluently."
 						}
 					</Description>
 				</Intro>
