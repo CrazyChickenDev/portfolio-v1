@@ -40,10 +40,10 @@ const TextContainer = styled(motion.div)`
 
 const ColumnText = styled(motion.span)`
 	color: white;
-	color: ${(props) => (props.color === 'pink' ? 'palevioletred' : 'white')};
+	color: ${(props) => (props.color === 'yellow' ? '#ffc200' : 'white')};
 	text-align: center;
 	flex: 0 0 175px;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 700;
 	width: 100%;
 	letter-spacing: 2px;
@@ -61,7 +61,7 @@ const Education = () => {
 		<Container>
 			<SkillsColumn>
 				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'pink'}>
+					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
 						#JavaScript(ES6)
 					</ColumnText>
 				</TextContainer>
@@ -71,7 +71,7 @@ const Education = () => {
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'pink'}>
+					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
 						#Pentesting
 					</ColumnText>
 				</TextContainer>
@@ -88,7 +88,7 @@ const Education = () => {
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'pink'}>
+					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
 						#CSS
 					</ColumnText>
 				</TextContainer>
@@ -98,14 +98,14 @@ const Education = () => {
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'pink'}>
+					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
 						#GatsbyJs
 					</ColumnText>
 				</TextContainer>
 			</SkillsColumn>
 			<SkillsColumn>
 				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'pink'}>
+					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
 						#SQL
 					</ColumnText>
 				</TextContainer>
@@ -115,7 +115,7 @@ const Education = () => {
 					</ColumnText>
 				</TextContainer>
 				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'pink'}>
+					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'#ffc200'}>
 						#Jekyll
 					</ColumnText>
 				</TextContainer>

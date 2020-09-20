@@ -85,7 +85,7 @@ const ListContainer = styled.div`
 `;
 
 const BodyList = styled(motion.ul)`
-	font-size: 20px;
+	font-size: 16px;
 	letter-spacing: 2px;
 	list-style-type: none;
 	font-family: 'Titillium Web';
