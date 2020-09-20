@@ -147,17 +147,7 @@ const About = ({ aboutRef }) => {
         Text >
         I love breaking into stuff!I 'm a Computer Software Engineer, Security Researcher, an aspiring Red-Teamer(love being offensive), 
         Open - source Enthusiast and a Student from Nigeria.I 'm currently learning front-end web development, cyber-security and i have a kin interest for hacking.
-        I also go by the alias 'CrazyChickenDev🐥' <
-        /Text> <
-        ParragraphDecoration > { '</p>' } < /ParragraphDecoration> <
-        br / >
-        <
-        TextDecoration > { '<br/>' } < /TextDecoration> <
-        br / >
-        <
-        ParragraphDecoration > { '<p>' } < /ParragraphDecoration> <
-        Text >
-        I have a profound passion
+        I also go by the alias 'CrazyChickenDev'.I have a profound passion
         for programming, security researching and new technology.I love to learn new things and build stuff.I studied computer engineering being that I 've always loved computers, learning programming
         started as a passion, then I decided to make the big step and move fully into programming. <
         /Text> <
