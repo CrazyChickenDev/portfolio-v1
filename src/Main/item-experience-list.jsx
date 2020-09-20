@@ -18,7 +18,7 @@ const Item = styled(motion.li)`
 	svg {
 		width: 15px;
 		padding-right: 0.5em;
-		color: ${(props) => (props.index === props.selected ? 'white' : 'palevioletred')};
+		color: ${(props) => (props.index === props.selected ? 'white' : '#ffc200')};
 		z-index: 2;
 	}
 	span {
@@ -36,7 +36,7 @@ const BackgroundTitle = styled(motion.div)`
 	width: 305px;
 	height: 100%;
 	border-radius: 5px;
-	background: #db719278;
+	background: #ffc200;
 	position: absolute;
 	z-index: 0;
 	left: -10px;

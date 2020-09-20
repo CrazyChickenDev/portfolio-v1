@@ -38,12 +38,12 @@ const Title = styled(motion.div)`
 `;
 
 const TitleText = styled.h1`
-	font-size: 32px;
+	font-size: 28px;
 	padding-right: 0.7em;
 	color: white;
 	font-family: 'Calibre', sans-serif;
 	@media only screen and (max-width: 450px) {
-		font-size: 25px;
+		font-size: 22px;
 	}
 `;
 

@@ -37,7 +37,7 @@ const Title = styled(motion.div)`
 `;
 
 const TitleText = styled.h1`
-	font-size: 32px;
+	font-size: 28px;
 	padding-right: 0.7em;
 	padding-left: 1em;
 	color: white;

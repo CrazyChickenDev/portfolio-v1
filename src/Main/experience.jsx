@@ -38,12 +38,12 @@ const Title = styled(motion.div)`
 `;
 
 const TitleText = styled.h1`
-	font-size: 32px;
+	font-size: 28px;
 	padding-right: 0.7em;
-	color: palevioletred;
+	color: #ffc200;
 	font-family: 'Calibre', sans-serif;
 	@media only screen and (max-width: 450px) {
-		font-size: 25px;
+		font-size: 22px;
 	}
 `;
 
@@ -78,7 +78,7 @@ const List = styled(motion.div)`
 `;
 
 const BodyList = styled(motion.ul)`
-	font-size: 20px;
+	font-size: 16px;
 	letter-spacing: 2px;
 	list-style-type: none;
 	font-family: 'Titillium Web';
