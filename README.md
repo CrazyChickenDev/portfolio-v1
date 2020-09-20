@@ -13,7 +13,7 @@
   </a>
 </p>
 
-![preview](https://"")
+![preview](https://github.com/CrazyChickenDev/portfolio/blob/master/src/assets/demo.png")
 
 ## 🍴Forking this repo
 
