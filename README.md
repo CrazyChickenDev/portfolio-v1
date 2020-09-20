@@ -5,7 +5,12 @@
   My Portfolio
 </h1>
 <p align="center">
-  The first iteration of <a href="https://nwaobidaniel.me" target="_blank">my Portfolio</a> built with <a href="https://reactjs.org/" target="_blank">React</a> and hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages.</a>
+  The first iteration of <a href="https://nwaobidaniel.me" target="_blank">my Portfolio</a> built with <a href="https://reactjs.org/" target="_blank">React</a> and hosted with <a href="https://netlify.com/" target="_blank">Netlify.</a>
+</p>
+<p align="center">
+  <a href="https://app.netlify.com/sites/crazychickendev/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/5c07aa83-582b-478e-a9a6-7341eb0a9484/deploy-status" alt="Netlify Status" />
+  </a>
 </p>
 
 ![preview](https://"")
