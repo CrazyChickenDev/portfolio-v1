@@ -38,7 +38,7 @@ const SideText = styled.div`
 `;
 
 const SideIcon = styled(motion.div)`
-	padding: 0.1em 0;
+	padding: 0.5em 0;
 	a {
 		color: white;
 		text-decoration: none;

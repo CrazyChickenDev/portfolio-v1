@@ -71,17 +71,17 @@ const ButtonBox = styled.div`
 `;
 
 const ButtonContainer = styled.div`
-	position: relative;
+	position: absolute;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 22%;
+	width: 25%;
 	padding: 0em 1.5em;
 	border-radius: 5px;
 	background: #ffffff14;
 	box-shadow: rgb(0 0 0 / 14%) 0px 2px 3px 0px, rgb(0 0 0 / 15%) 0px 10px 15px 0px;
 	@media only screen and (max-width: 450px) {
-		width: 55%;
+		width: 58%;
 	}
 `;
 
