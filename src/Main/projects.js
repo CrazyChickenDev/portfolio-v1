@@ -4,7 +4,8 @@ import { motion, AnimateSharedLayout } from 'framer-motion';
 import BeginnerProjects from './beginner-projects';
 import AdvancedProjects from './advanced-projects';
 
-const Container = styled(motion.section)`
+const Container = styled(motion.section)
+`
 	padding-top: 150px;
 	padding-bottom: 100px;
 	padding-left: 170px;
@@ -25,7 +26,8 @@ const Container = styled(motion.section)`
 	}
 `;
 
-const Title = styled(motion.div)`
+const Title = styled(motion.div)
+`
 	width: 100%;
 	color: white;
 	display: flex;
@@ -38,7 +40,7 @@ const Title = styled(motion.div)`
 	}
 `;
 
-const TitleText = styled.h1`
+const TitleText = styled.h1 `
 	font-size: 32px;
 	padding-right: 0.7em;
 	padding-left: 1em;
@@ -49,7 +51,7 @@ const TitleText = styled.h1`
 	}
 `;
 
-const Line = styled.div`
+const Line = styled.div `
 	content: '';
 	display: block;
 	width: 75%;
@@ -60,7 +62,7 @@ const Line = styled.div`
 	}
 `;
 
-const ButtonBox = styled.div`
+const ButtonBox = styled.div `
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -70,7 +72,7 @@ const ButtonBox = styled.div`
 	}
 `;
 
-const ButtonContainer = styled.div`
+const ButtonContainer = styled.div `
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -85,7 +87,8 @@ const ButtonContainer = styled.div`
 	}
 `;
 
-const Button = styled(motion.h3)`
+const Button = styled(motion.h3)
+`
 	cursor: pointer;
 	text-transform: uppercase;
 	position: relative;
@@ -95,13 +98,14 @@ const Button = styled(motion.h3)`
 	}
 `;
 
-const Body = styled.div`
+const Body = styled.div `
 	display: flex;
 	align-items: center;
 	justify-content: center;
 `;
 
-const BackgroundButton = styled(motion.div)`
+const BackgroundButton = styled(motion.div)
+`
 	width: 120%;
 	height: 170%;
 	border-radius: 5px;
@@ -118,57 +122,63 @@ const BackgroundButton = styled(motion.div)`
 `;
 
 const useIsMobile = () => {
-	const [isMobile, setIsMobile] = useState(null);
-	useEffect(() => {
-		const width = window.innerWidth;
-		setIsMobile(false);
-		if (width < 450) setIsMobile(true);
-	}, []);
-	return isMobile;
+    const [isMobile, setIsMobile] = useState(null);
+    useEffect(() => {
+        const width = window.innerWidth;
+        setIsMobile(false);
+        if (width < 450) setIsMobile(true);
+    }, []);
+    return isMobile;
 };
 
 const Projects = ({ projectRef }) => {
-	const [showAdvanced, setShowAdvanced] = useState(true);
-	const isMobile = useIsMobile();
+    const [showAdvanced, setShowAdvanced] = useState(true);
+    const isMobile = useIsMobile();
 
-	const handleProjects = (e) => {
-		const { id } = e.target;
-		if (id === 'advanced') return setShowAdvanced(true);
-		if (id === 'beginner') return setShowAdvanced(false);
-		return;
-	};
+    const handleProjects = (e) => {
+        const { id } = e.target;
+        if (id === 'advanced') return setShowAdvanced(true);
+        if (id === 'beginner') return setShowAdvanced(false);
+        return;
+    };
 
-	return (
-		<Container ref={projectRef}>
-			<Title>
-				<TitleText>My Projects</TitleText>
-				<Line />
-			</Title>
-			<ButtonBox>
-				<AnimateSharedLayout>
-					<ButtonContainer>
-						<Button
-							whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}
-							transition={{}}
-							onClick={handleProjects}
-							id='advanced'>
-							{showAdvanced && <BackgroundButton layoutId='underline' />}
-							Advanced
-						</Button>
-						<Button
-							whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}
-							transition={{}}
-							onClick={handleProjects}
-							id='beginner'>
-							{!showAdvanced && <BackgroundButton layoutId='underline' />}
-							Beginner
-						</Button>
-					</ButtonContainer>
-				</AnimateSharedLayout>
-			</ButtonBox>
-			<Body>{showAdvanced ? <AdvancedProjects isMobile={isMobile} /> : <BeginnerProjects />}</Body>
-		</Container>
-	);
+    return ( <
+        Container ref = { projectRef } >
+        <
+        Title >
+        <
+        TitleText > My Projects < /TitleText> <
+        Line / >
+        <
+        /Title> <
+        ButtonBox >
+        <
+        AnimateSharedLayout >
+        <
+        ButtonContainer >
+        <
+        Button whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } }
+        transition = {
+            {} }
+        onClick = { handleProjects }
+        id = 'advanced' > { showAdvanced && < BackgroundButton layoutId = 'underline' / > }
+        Cyber - Security <
+        /Button> <
+        Button whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } }
+        transition = {
+            {} }
+        onClick = { handleProjects }
+        id = 'beginner' > {!showAdvanced && < BackgroundButton layoutId = 'underline' / > }
+        Basic <
+        /Button> <
+        /ButtonContainer> <
+        /AnimateSharedLayout> <
+        /ButtonBox> <
+        Body > { showAdvanced ? < AdvancedProjects isMobile = { isMobile } /> : <BeginnerProjects / > } < /Body> <
+        /Container>
+    );
 };
 
 export default Projects;
