@@ -145,8 +145,8 @@ const About = ({ aboutRef }) => {
         <
         ParragraphDecoration > { '<p>' } < /ParragraphDecoration> <
         Text >
-        I 'm currently looking for new opportunities. I'
-        m always open to new projects, ideas, job opportunities and new connections.I love building new stuff so just send me a message and I will answer you 100 % . <
+        I love breaking into stuff!I 'm a Computer Software Engineer, Security Researcher, an aspiring Red-Teamer(love being offensive), 
+        Open - source Enthusiast and a Student from Nigeria.I 'm currently learning front-end web development, cyber-security and i have a kin interest for hacking. <
         /Text> <
         ParragraphDecoration > { '</p>' } < /ParragraphDecoration> <
         br / >
@@ -165,9 +165,9 @@ const About = ({ aboutRef }) => {
         <
         ParragraphDecoration > { '<p>' } < /ParragraphDecoration> <
         Text >
-        I don 't like to quit. Once I start something I finish it, so instead of dropping out of college to
-        pursue my dream of being a programmer, I decided to finish my mechanical engineer degree
-        while learning and working as a programmer. <
+        I enjoy creating things that live both on the internet and in reality, whether that be websites, applications, embedded systems or anything in between.I also love working and creating things with microcontrollers and implementing IoT in components,
+        playing video games, designing gadgets and attending social events.My goal is to always build products that provide pixel - perfect, user - friendly, security efficient, performant experiences.Shortly after I graduated Highschool,
+        I had been overly engrossed in the cyber - security space and the vast amount of knowledge it holds. <
         /Text> <
         ParragraphDecoration > { '</p>' } < /ParragraphDecoration> <
         br / >
@@ -177,9 +177,8 @@ const About = ({ aboutRef }) => {
         <
         ParragraphDecoration > { '<p>' } < /ParragraphDecoration> <
         Text >
-        My preferable area is frontend using Reactjs, I love how React makes it so easy to improve the user 's experience. As an engineer, I like UX and the balance between UI and UX. I love to build
-        nice looking easy to use responsive web sites.I don 't mind getting my hands on other areas if
-        needed like backend but my area of expertise is frontend. <
+        I started by learning the basic principles of how computers are made, how they work and followed a lot of DIYs by occasionally visiting websites such as XDA Developers, Wired, The Verge, TechCrunch and Instructables.I loved the open - source community so I got into android development, C programming and embedded systems, a few stacks I also worked with later on when I got into college include Python, JavaScript, HTML & CSS, Node.js, and WordPress.I 've also been able to work on a variety of other 
+        interesting and meaningful projects daily. <
         /Text> <
         ParragraphDecoration > { '</p>' } < /ParragraphDecoration> <
         br / >
@@ -189,7 +188,8 @@ const About = ({ aboutRef }) => {
         <
         ParragraphDecoration > { '<p>' } < /ParragraphDecoration> <
         Text >
-        Switching carrers is the best decission I have ever made and I am so happy with it.I am a happy person who enjoys work.So my dream company would be one with a really good enviroment with my coworkers. <
+        I 'm currently looking for new opportunities and I'
+        m always open to new projects, ideas, job opportunities and new connections.I love building new stuff so just send me a message and I will reply 100 % . <
         /Text> <
         ParragraphDecoration > { '</p>' } < /ParragraphDecoration> <
         /TextContainer> <

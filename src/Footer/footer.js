@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Container = styled.div`
+const Container = styled.div `
 	font-size: 20px;
 	color: white;
 	padding: 1rem 0;
@@ -11,23 +11,23 @@ const Container = styled.div`
 	}
 `;
 
-const Text = styled.p`
+const Text = styled.p `
 	text-align: center;
 `;
 
 const Footer = () => {
-	return (
-		<Container>
-			<Text>
-				'All these projects are powered by a lot of
-				<span role='img' aria-label='coffe'>
-					{'  '}
-					☕️
-				</span>
-				'
-			</Text>
-		</Container>
-	);
+    return ( <
+        Container >
+        <
+        Text >
+        'These projects are powered by a lot of <
+        span role = 'img'
+        aria - label = 'coffee' > { '  ' }☕️ <
+        /span>
+        ' <
+        /Text> <
+        /Container>
+    );
 };
 
 export default Footer;
