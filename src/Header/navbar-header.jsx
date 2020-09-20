@@ -21,7 +21,7 @@ const Header = styled.div`
 	justify-content: center;
 	width: 50%;
 	background: #1f1f1f;
-	background: linear-gradient(to right, palevioletred ${(props) => props.scroll}, white 0);
+	background: linear-gradient(to right, #ffc200 ${(props) => props.scroll}, white 0);
 	color: ${(props) => (props.isSafari ? 'white' : 'transparent')};
 	-webkit-background-clip: text;
 	@media only screen and (max-width: 800px) {
@@ -47,7 +47,7 @@ const HeaderTextContainer = styled.div`
 `;
 
 const HeaderText = styled.h4`
-	font-size: 18px;
+	font-size: 16px;
 	margin: 0;
 	padding: 0;
 
