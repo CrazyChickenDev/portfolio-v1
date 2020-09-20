@@ -105,10 +105,10 @@ const TextContainer = styled.div`
 `;
 
 const Title = styled.h4`
-	font-size: 24px;
+	font-size: 22px;
 	margin: 0;
 	padding: 0;
-	color: palevioletred;
+	color: #ffc200;
 	font-family: 'Calibre', sans-serif;
 `;
 
@@ -145,7 +145,7 @@ const TechItems = styled.span`
 `;
 
 const Hastag = styled.span`
-	color: palevioletred;
+	color: #ffc200;
 `;
 
 const ButtonContainer = styled.div`
@@ -157,7 +157,7 @@ const ButtonContainer = styled.div`
 const ButtonShow = styled(motion.button)`
 	margin-top: 2em;
 	padding: 0.7em 1em;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 600;
 	color: #1f1f1f;
 	font-family: 'Calibre', sans-serif;
@@ -168,12 +168,12 @@ const Link = ({ githubLink, externalLink }) => {
 	return (
 		<LinkContainer>
 			<a href={githubLink} target='_blank' rel='noopener noreferrer'>
-				<Button whileHover={{ y: [0, -8, 0], color: 'palevioletred' }} transition={{ duration: 0.5 }}>
+				<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 					<Github />
 				</Button>
 			</a>
 			<a href={externalLink} target='_blank' rel='noopener noreferrer'>
-				<Button whileHover={{ y: [0, -8, 0], color: 'palevioletred' }} transition={{ duration: 0.5 }}>
+				<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 					<ExternalLinkOutline />
 				</Button>
 			</a>

@@ -113,10 +113,10 @@ const Card = styled.div`
 `;
 
 const Title = styled.h4`
-	font-size: 24px;
+	font-size: 22px;
 	margin: 0;
 	padding: 0;
-	color: palevioletred;
+	color: #ffc200;
 	font-family: 'Calibre', sans-serif;
 	@media only screen and (max-width: 450px) {
 		font-size: 20px;
@@ -126,7 +126,7 @@ const Title = styled.h4`
 const Description = styled.h4`
 	margin: 0;
 	padding: 0;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 300;
 	margin: 0;
 	padding: 0;
@@ -149,7 +149,7 @@ const Technology = styled.div`
 const TechItems = styled.span`
 	padding-right: 10px;
 	padding-top: 10px;
-	font-size: 18px;
+	font-size: 16px;
 	color: #ffffffbf;
 	@media only screen and (max-width: 450px) {
 		font-size: 14px;
@@ -157,7 +157,7 @@ const TechItems = styled.span`
 `;
 
 const Hastag = styled.span`
-	color: palevioletred;
+	color: #ffc200;
 `;
 
 const ButtonContainer = styled.div`
@@ -175,9 +175,9 @@ const Button = styled(motion.div)`
 	padding: 0.5em;
 	cursor: pointer;
 	svg {
-		width: 30px;
+		width: 28px;
 		@media only screen and (max-width: 450px) {
-			width: 27px;
+			width: 25px;
 		}
 	}
 `;
