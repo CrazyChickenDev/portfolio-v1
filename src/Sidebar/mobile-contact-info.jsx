@@ -40,7 +40,7 @@ const ExpandIcon = styled(SideIcon)`
 	border: 0px solid white;
 	padding: 0;
 	border-radius: 50%;
-	background: palevioletred;
+	background: #ffc200;
 	padding: 10px;
 	z-index: 11;
 	box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 3px 0px, rgba(0, 0, 0, 0.06) 0px 10px 15px 0px;
