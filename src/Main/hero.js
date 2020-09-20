@@ -240,7 +240,25 @@ const Hero = ({ didScroll, handleToast, heroRef }) => {
             { opacity: 1 } }
         transition = {
             { duration: 2 } } > {
-            "I'm a self-taught Cyber-Security engineer, Computer Software Engineer and an Open-Source Enthusiast. I'm 22 years old. I live in Benin City, Nigeria. I like building( and designing ) exceptional websites, applications, researching on security and everything in between.  I speak fluently  🇪🇸  🇺🇸."
+            "I'm a self-taught cyber-security engineer, a computer engineer by degree and an open-source enthusiast. I'm 22 years old. I live in Benin City, Nigeria. I like building( and designing ) exceptional websites, applications, researching on security, hacking and everything in between.  I speak fluently  🇪🇸  🇺🇸."
+        } <
+        /Description> <
+        Description initial = {
+            { opacity: 0 } }
+        animate = {
+            { opacity: 1 } }
+        transition = {
+            { duration: 2 } } > {
+            "I enjoy creating things that live both on the internet and in reality, whether that be websites, applications, embedded systems or anything in between. I also love working and creating things with microcontrollers and implementing IoT in components, playing video games, designing gadgets and attending social events. My goal is to always build products that provide pixel-perfect, user-friendly, security efficient, performant experiences. Shortly after I graduated Highschool, I had been overly engrossed in the cyber-security space and the vast amount of knowledge it holds."
+        } <
+        /Description> <
+        Description initial = {
+            { opacity: 0 } }
+        animate = {
+            { opacity: 1 } }
+        transition = {
+            { duration: 2 } } > {
+            "I started by learning the basic principles of how computers are made, how they work and followed a lot of DIY's by occasionally visiting websites such as XDA Developers, Wired, The Verge, TechCrunch and Instructables. I loved the open-source community so I got into android development, C programming and embedded systems, a few stacks I also worked with later on when I got into college include Python, JavaScript, HTML & (S)CSS, Node.js, and WordPress. I've also been able to work on a variety of other interesting and meaningful projects daily."
         } <
         /Description> <
         /Intro> <

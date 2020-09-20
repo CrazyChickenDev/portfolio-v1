@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-const Container = styled(motion.div)`
+const Container = styled(motion.div)
+`
 	width: 65%;
 	display: flex;
 	justify-content: space-evenly;
@@ -16,7 +17,7 @@ const Container = styled(motion.div)`
 	}
 `;
 
-const SkillsColumn = styled.div`
+const SkillsColumn = styled.div `
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -27,7 +28,8 @@ const SkillsColumn = styled.div`
 	}
 `;
 
-const TextContainer = styled(motion.div)`
+const TextContainer = styled(motion.div)
+`
 	height: 80px;
 	display: flex;
 	justify-content: center;
@@ -38,7 +40,8 @@ const TextContainer = styled(motion.div)`
 	}
 `;
 
-const ColumnText = styled(motion.span)`
+const ColumnText = styled(motion.span)
+`
 	color: white;
 	color: ${(props) => (props.color === 'pink' ? 'palevioletred' : 'white')};
 	text-align: center;
@@ -57,76 +60,126 @@ const ColumnText = styled(motion.span)`
 `;
 
 const Education = () => {
-	return (
-		<Container>
-			<SkillsColumn>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'pink'}>
-						#Reactjs
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#Styled Components
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'pink'}>
-						#Javascript
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#Bootstrap
-					</ColumnText>
-				</TextContainer>
-			</SkillsColumn>
-			<SkillsColumn>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#Redux
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'pink'}>
-						#CSS
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#HTML5
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'pink'}>
-						#Hooks
-					</ColumnText>
-				</TextContainer>
-			</SkillsColumn>
-			<SkillsColumn>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'pink'}>
-						#Threejs
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#Rest API
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }} color={'pink'}>
-						#Framer Motion
-					</ColumnText>
-				</TextContainer>
-				<TextContainer>
-					<ColumnText whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}>
-						#Enzyme
-					</ColumnText>
-				</TextContainer>
-			</SkillsColumn>
-		</Container>
-	);
+    return ( <
+        Container >
+        <
+        SkillsColumn >
+        <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } }
+        color = { 'pink' } > #JavaScript(ES6) <
+        /ColumnText> <
+        /TextContainer> <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } } > #Python <
+        /ColumnText> <
+        /TextContainer> <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } }
+        color = { 'pink' } > #Pentesting <
+        /ColumnText> <
+        /TextContainer> <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } } > #NodeJs <
+        /ColumnText> <
+        /TextContainer> <
+        /SkillsColumn> <
+        SkillsColumn >
+        <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } } > #C++
+        <
+        /ColumnText> <
+        /TextContainer> <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } }
+        color = { 'pink' } > #CSS <
+        /ColumnText> <
+        /TextContainer> <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } } > #HTML5 <
+        /ColumnText> <
+        /TextContainer> <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } }
+        color = { 'pink' } > #GatsbyJs <
+        /ColumnText> <
+        /TextContainer> <
+        /SkillsColumn> <
+        SkillsColumn >
+        <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } }
+        color = { 'pink' } > #SQL <
+        /ColumnText> <
+        /TextContainer> <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } } > #VisualBasic <
+        /ColumnText> <
+        /TextContainer> <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } }
+        color = { 'pink' } > #Jekyll <
+        /ColumnText> <
+        /TextContainer> <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } } > #Shell <
+        /ColumnText> <
+        /TextContainer> <
+        /SkillsColumn> <
+        SkillsColumn >
+        <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } } > color = { 'pink' } > #PHP <
+        /ColumnText> <
+        /TextContainer> <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } } > #ReactJs <
+        /ColumnText> <
+        /TextContainer> <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } } > color = { 'pink' } > #Canva <
+        /ColumnText> <
+        /TextContainer> <
+        TextContainer >
+        <
+        ColumnText whileHover = {
+            { scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] } } > #Linux <
+        /ColumnText> <
+        /TextContainer> <
+        /SkillsColumn> <
+        /Container>
+    );
 };
 
 export default Education;

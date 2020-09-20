@@ -22,7 +22,7 @@ export const dataExperience = {
     info: {
         0: {
             link: 'https://muzzlab.com/',
-            title: '@MuzzLab Technologies 🏘',
+            title: '@MuzzLab Technologies 🏢',
             date: ' Mar 2017 - May 2020',
             first: 'Wanteat App is a serverless application using FaunaDB. I design and develop the front-end web application using Reactjs. Focusing on the UX design. I also handle normalize and denormalize data in the frontend.',
             second: 'Front-end: React js, Hooks, Redux, styled-components, Restful Apis, Git & Github.',
@@ -30,7 +30,7 @@ export const dataExperience = {
         },
         1: {
             link: 'https://www.canva.com/',
-            title: '@Canva Designer ',
+            title: '@Canva Designer 🧑‍🎨',
             date: 'Freelance | May 2018 - present',
             first: "Designed, developed and deployed the front-end. Focusing on handling Google Maps API and creating search filters for user's house searches improving user's experience.",
             second: 'Front-end: React framework, Redux to manage states, Material-UI, Google Maps Api,Restful Api, Git & Github',
@@ -46,21 +46,21 @@ export const dataExperience = {
         },
         3: {
             link: 'https://muzzware.com/',
-            title: '@Muzzware Inc.  🤖',
+            title: '@Muzzware Inc. 🔭',
             date: 'Jul 2019 - present',
             first: 'My work corresponds to a part-time job while studying in college.',
             second: "My role was to teach kids how to 'program' differents robots of Lego to do different tasks.",
         },
         4: {
             link: 'http://www.unitesict.com/',
-            title: '@UNITeS Cisco 🚘',
+            title: '@UNITeS Cisco 🔐',
             date: 'Intern | Sept 2020 - Nov 2020',
             first: 'My work corresponds to a summer job while studying in college.Virtual Graduate Internship',
             second: 'My role was helping the main mechanic to achieve differents tasks from oil changes to engine repairs.',
         },
         5: {
             link: '',
-            title: 'Basketball Referee  🏀',
+            title: 'Dog Trainer 🐕',
             date: 'Sep 2013 - May 2015',
             first: 'I worked as a referee of kids basketball leagues when I was around 15 years while a I played basketball in regional league.',
         },
