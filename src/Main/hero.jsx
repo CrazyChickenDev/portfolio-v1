@@ -65,11 +65,11 @@ const Title = styled(motion.h1)`
 	margin-top: 0em;
 	font-size: 75px;
 	text-align: start;
-	color: palevioletred;
+	color: #ffc200;
 	font-family: 'Titillium Web';
 	cursor: grab;
 	span {
-		color: palevioletred;
+		color: #ffc200;
 	}
 	@media only screen and (max-width: 800px) {
 		font-size: 60px;
@@ -85,7 +85,7 @@ const Title = styled(motion.h1)`
 `;
 
 const FirstTitle = styled(Title)`
-	font-size: 20px;
+	font-size: 16px;
 	margin: 0.4em 0;
 	color: white;
 	cursor: default;
@@ -122,7 +122,7 @@ const SubTitle = styled(Title)`
 const Description = styled(Title)`
 	padding-top: 2em;
 	width: 690px;
-	font-size: 25px;
+	font-size: 16px;
 	margin: 0;
 	color: white;
 	cursor: default;
@@ -153,11 +153,11 @@ const ScrollDown = styled.div`
 	align-items: center;
 	width: 100px;
 	color: white;
-	color: palevioletred;
-	font-size: 16px;
+	color: #ffc200;
+	font-size: 15px;
 	font-family: 'Asap', sans-serif;
 	svg {
-		width: 30px;
+		width: 25px;
 	}
 	@media only screen and (max-width: 450px) {
 		bottom: 12px;
@@ -203,7 +203,7 @@ const Hero = ({ didScroll, handleToast, heroRef }) => {
 		<Container ref={heroRef}>
 			<Content>
 				<Intro>
-					<FirstTitle>Hi!  I'm</FirstTitle>
+					<FirstTitle>Hi! my name is</FirstTitle>
 					<Title
 						drag
 						dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
@@ -222,7 +222,7 @@ const Hero = ({ didScroll, handleToast, heroRef }) => {
 					</SubTitle>
 					<Description initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
 						{
-							"I'm a self-taught cyber-security engineer, a computer software engineer by degree🎓 and an open-source enthusiast. I'm 22 years old and I live in Benin City, 🇳🇬. I like building(and designing) exceptional websites, applications, researching on security, hacking and everything in between.  I speak english 🇬🇧 🇺🇸 fluently."
+							"I'm a self-taught cyber-security engineer, a computer software engineer by degree🎓 and an open-source enthusiast based in Benin City, Nigeria. I'm 22 years old and I like building(and designing) exceptional websites, applications, researching on security, hacking and everything in between.  I speak English 🇬🇧🇺🇸 fluently."
 						}
 					</Description>
 				</Intro>

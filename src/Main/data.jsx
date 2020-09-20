@@ -70,19 +70,19 @@ export const dataExperience = {
 
 export const dataEducation = {
     0: {
-        main: 'Ogunlade College 🇳🇬',
+        main: 'Ogunlade College 🎓',
         expand: 'Junior Secondary School',
         date: '( 2009 / 2012 )',
-        state: 'Lagos',
+        country: 'Lagos',
     },
     1: {
-        main: 'Komfota College 🇳🇬',
+        main: 'Komfota College 🎓',
         expand: 'Science (Senior Secondary School)',
         date: '( 2012 / 2014 )',
-        state: 'Lagos',
+        country: 'Lagos',
     },
     2: {
-        main: 'University of Benin 🇳🇬',
+        main: 'University of Benin 🎓',
         expand: 'Bachelor of Engineering in Computer',
         date: '( 2016 / Present )',
         country: 'Nigeria',
