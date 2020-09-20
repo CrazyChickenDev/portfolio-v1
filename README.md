@@ -13,7 +13,9 @@
   </a>
 </p>
 
-![preview](https://github.com/CrazyChickenDev/portfolio/blob/master/src/assets/demo.png")
+<div align="center">
+  <img alt="Demo" src="https://github.com/CrazyChickenDev/portfolio/blob/master/src/assets/demo.png" />
+</div>
 
 ## 🍴Forking this repo
 
