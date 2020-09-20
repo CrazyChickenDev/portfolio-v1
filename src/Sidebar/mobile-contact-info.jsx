@@ -87,7 +87,7 @@ const MobileContactInfo = ({ handleToast }) => {
 					animate={expandIcons ? 'show' : 'hidden1'}
 					whileTap={{ scale: 0.85 }}>
 					<a
-						href='https://github.com/CrazyChickenDev/portfolio/blob/master/src/assets/resume.pdf'
+						href='https://drive.google.com/file/d/1a0KJGhKGGBeNZbITsDPOVPY9EcHBQC0y/view?usp=sharing'
 						target='_blank'
 						rel='noopener noreferrer'>
 						<FilePdf />
