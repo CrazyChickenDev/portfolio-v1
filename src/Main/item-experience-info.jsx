@@ -39,14 +39,14 @@ const TitleText = styled.h4`
 	margin: 0;
 	padding: 0.2em 0;
 	@media only screen and (max-width: 450px) {
-		font-size: 18px;
+		font-size: 16px;
 	}
 `;
 
 const DateText = styled.span`
 	font-family: 'Roboto', sans-serif;
 	@media only screen and (max-width: 450px) {
-		font-size: 16px;
+		font-size: 14px;
 	}
 `;
 
@@ -54,14 +54,14 @@ const Body = styled.div``;
 
 const ListInfo = styled.ul`
 	@media only screen and (max-width: 450px) {
-		padding-left: 20px;
+		padding-left: 18px;
 	}
 `;
 
 const Info = styled.li`
 	padding-bottom: 30px;
 	@media only screen and (max-width: 450px) {
-		font-size: 16px;
+		font-size: 14px;
 		font-family: 'Roboto';
 	}
 `;
