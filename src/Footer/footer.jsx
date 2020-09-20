@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-	font-size: 20px;
+	font-size: 16px;
 	color: white;
 	padding: 1rem 0;
 	font-family: monospace;
