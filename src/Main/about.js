@@ -146,7 +146,8 @@ const About = ({ aboutRef }) => {
         ParragraphDecoration > { '<p>' } < /ParragraphDecoration> <
         Text >
         I love breaking into stuff!I 'm a Computer Software Engineer, Security Researcher, an aspiring Red-Teamer(love being offensive), 
-        Open - source Enthusiast and a Student from Nigeria.I 'm currently learning front-end web development, cyber-security and i have a kin interest for hacking. <
+        Open - source Enthusiast and a Student from Nigeria.I 'm currently learning front-end web development, cyber-security and i have a kin interest for hacking.
+        I also go by the alias 'CrazyChickenDev🐥' <
         /Text> <
         ParragraphDecoration > { '</p>' } < /ParragraphDecoration> <
         br / >
