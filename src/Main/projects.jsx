@@ -39,10 +39,10 @@ const Title = styled(motion.div)`
 `;
 
 const TitleText = styled.h1`
-	font-size: 32px;
+	font-size: 28px;
 	padding-right: 0.7em;
 	padding-left: 1em;
-	color: palevioletred;
+	color: #ffc200;
 	font-family: 'Calibre', sans-serif;
 	@media only screen and (max-width: 450px) {
 		font-size: 22px;
@@ -105,7 +105,7 @@ const BackgroundButton = styled(motion.div)`
 	width: 120%;
 	height: 170%;
 	border-radius: 5px;
-	background: #db7192bf;
+	background: #ffc200;
 	position: absolute;
 	z-index: -1;
 	left: -11px;
@@ -133,8 +133,8 @@ const Projects = ({ projectRef }) => {
 
 	const handleProjects = (e) => {
 		const { id } = e.target;
-		if (id === 'advanced') return setShowAdvanced(true);
-		if (id === 'beginner') return setShowAdvanced(false);
+		if (id === 'security') return setShowAdvanced(true);
+		if (id === 'basic') return setShowAdvanced(false);
 		return;
 	};
 
@@ -151,7 +151,7 @@ const Projects = ({ projectRef }) => {
 							whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}
 							transition={{}}
 							onClick={handleProjects}
-							id='advanced'>
+							id='security'>
 							{showAdvanced && <BackgroundButton layoutId='underline' />}
 							Cyber-Security
 						</Button>
@@ -159,7 +159,7 @@ const Projects = ({ projectRef }) => {
 							whileHover={{ scaleX: [1, 1.2, 0.85, 1], scaleY: [1, 0.8, 1.15, 1] }}
 							transition={{}}
 							onClick={handleProjects}
-							id='beginner'>
+							id='basic'>
 							{!showAdvanced && <BackgroundButton layoutId='underline' />}
 							Basic
 						</Button>
