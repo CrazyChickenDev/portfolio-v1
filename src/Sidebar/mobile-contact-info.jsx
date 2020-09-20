@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Github } from '@styled-icons/boxicons-logos';
-import { Email } from '@styled-icons/material-twotone';
+import { Twitter } from '@styled-icons/boxicons-logos';
 import { LinkedinSquare } from '@styled-icons/boxicons-logos';
 import { FilePdf } from '@styled-icons/boxicons-solid';
 import { MoreHorizontal } from '@styled-icons/evaicons-solid/';
@@ -66,12 +66,6 @@ const MobileContactInfo = ({ handleToast }) => {
 		stiffness: 100,
 	};
 
-	const handleClipboardClick = () => {
-		navigator.clipboard.writeText('dannychukz15@gmail.com');
-		handleToast(`Email copy to clipboard! 🥳`);
-		return;
-	};
-
 	const handleExpandIcons = () => setExpandIcons(!expandIcons);
 
 	return (
@@ -109,7 +103,9 @@ const MobileContactInfo = ({ handleToast }) => {
 					transition={bounceTransition}
 					animate={expandIcons ? 'show' : 'hidden3'}
 					whileTap={{ scale: 0.85 }}>
-					<Email onClick={handleClipboardClick} />
+					<a href='https://twitter.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
+						<Twitter />
+					</a>
 				</SideIcon>
 				<SideIcon
 					initial={{ opacity: 0, x: -150 }}
