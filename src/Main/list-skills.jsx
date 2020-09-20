@@ -40,7 +40,7 @@ const TextContainer = styled(motion.div)`
 
 const ColumnText = styled(motion.span)`
 	color: white;
-	color: ${(props) => (props.color === 'yellow' ? '#ffc200' : 'white')};
+	color: ${(props) => (props.color === '#ffc200' ? '#ffc200' : 'white')};
 	text-align: center;
 	flex: 0 0 175px;
 	font-size: 16px;
