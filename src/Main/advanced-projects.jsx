@@ -236,25 +236,27 @@ const AdvancedProjects = ({ isMobile }) => {
 			<Row revert={true}>
 				<LeftRow text={true}>
 					<Card>
-						<Title>Wanteat App</Title>
-						<Description>Healthy mealplan generator to maintain your diet without getting bored.</Description>
+						<Title>Keylogger</Title>
+						<Description>A simply built keylogger created using python on a linux distro(Parrot OS) and 
+							         used to record keystrokes made by users of the pc.
+						</Description>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>React
+								<Hastag>#</Hastag>Python
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Hooks
+								<Hastag>#</Hastag>Pynput Library
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Styled-components
+								<Hastag>#</Hastag>VSCode
 							</TechItems>
 						</Technology>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Api
+								<Hastag>#</Hastag>Linux OS
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Fauna
+								<Hastag>#</Hastag>Bash
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
