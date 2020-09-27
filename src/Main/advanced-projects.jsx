@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import Passwordlist from '../assets/passlist.png';
-import MarcoPolo from '../assets/marco-polo.png';
+import GraphicalPasswordStrategy from '../assets/Upcoming.png';
 import Keylogger from '../assets/Keylogger.png';
 import SafeFolderApp from '../assets/Upcoming.png';
 import  from '../assets/Upcoming.png';
@@ -326,38 +326,37 @@ const AdvancedProjects = ({ isMobile }) => {
 			<Row revert={true}>
 				<LeftRow text={true}>
 					<Card>
-						<Title>Marco Polo</Title>
+						<Title>Graphical-Password Strategy</Title>
 						<Description>
-							A project is to see graphically how many countries you have visited and the percentage of the
-							world you have visited. You can also share it with friends to see who is the most adventurous.
+							Description
 						</Description>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>React
+								<Hastag>#</Hastag>Library
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Hooks
+								<Hastag>#</Hastag>Library
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Styled-components
+								<Hastag>#</Hastag>Library
 							</TechItems>
 						</Technology>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Datamaps
+								<Hastag>#</Hastag>Library
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Jsonwebtoke
+								<Hastag>#</Hastag>Library
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
-							<a href='https://github.com/Achiaga/marco-polo' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: 'palevioletred' }} transition={{ duration: 0.5 }}>
+							<a href='https://github.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
+								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 									<Github />
 								</Button>
 							</a>
-							<a href='https://mytrips.now.sh/' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: 'palevioletred' }} transition={{ duration: 0.5 }}>
+							<a href='https://nwaobidaniel.me/' target='_blank' rel='noopener noreferrer'>
+								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 									<ExternalLinkOutline />
 								</Button>
 							</a>
@@ -366,7 +365,7 @@ const AdvancedProjects = ({ isMobile }) => {
 				</LeftRow>
 				<RightRow text={false}>
 					<ImgContainer>
-						<Img src={MarcoPolo} alt='marco-polo' />
+						<Img src={GraphicalPasswordStrategy} alt='graphicpassword' />
 					</ImgContainer>
 				</RightRow>
 			</Row>
