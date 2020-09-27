@@ -72,7 +72,7 @@ const ImgContainer = styled.div`
 		width: 80%;
 	}
 `;
-// eslint-disable-next-line
+
 const VideoContainer = styled.div`
 	position: absolute;
 	top: 19px;
@@ -83,7 +83,6 @@ const VideoContainer = styled.div`
 		top: 9px;
 		left: 39px;
 	}
-
 	video {
 		width: 395px;
 		@media only screen and (max-width: 450px) {
@@ -114,10 +113,10 @@ const Card = styled.div`
 `;
 
 const Title = styled.h4`
-	font-size: 22px;
+	font-size: 24px;
 	margin: 0;
 	padding: 0;
-	color: #ffc200;
+	color: palevioletred;
 	font-family: 'Calibre', sans-serif;
 	@media only screen and (max-width: 450px) {
 		font-size: 20px;
@@ -127,7 +126,7 @@ const Title = styled.h4`
 const Description = styled.h4`
 	margin: 0;
 	padding: 0;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
 	margin: 0;
 	padding: 0;
@@ -150,7 +149,7 @@ const Technology = styled.div`
 const TechItems = styled.span`
 	padding-right: 10px;
 	padding-top: 10px;
-	font-size: 16px;
+	font-size: 18px;
 	color: #ffffffbf;
 	@media only screen and (max-width: 450px) {
 		font-size: 14px;
@@ -158,7 +157,7 @@ const TechItems = styled.span`
 `;
 
 const Hastag = styled.span`
-	color: #ffc200;
+	color: palevioletred;
 `;
 
 const ButtonContainer = styled.div`
@@ -176,9 +175,9 @@ const Button = styled(motion.div)`
 	padding: 0.5em;
 	cursor: pointer;
 	svg {
-		width: 28px;
+		width: 30px;
 		@media only screen and (max-width: 450px) {
-			width: 25px;
+			width: 27px;
 		}
 	}
 `;
@@ -205,7 +204,7 @@ const AdvancedProjects = ({ isMobile }) => {
 								<Hastag>#</Hastag>Python
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>VsCode
+								<Hastag>#</Hastag>VSCode
 							</TechItems>
 							<TechItems>
 								<Hastag>#</Hastag>Parrot OS
@@ -220,7 +219,7 @@ const AdvancedProjects = ({ isMobile }) => {
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
-							<a href='https://github.com/CrazyChickenDev/Passwordlist-Generator' target='_blank' rel='noopener noreferrer'>
+						    <a href='https://github.com/CrazyChickenDev/Passwordlist-Generator' target='_blank' rel='noopener noreferrer'>
 								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 									<Github />
 								</Button>
@@ -246,7 +245,7 @@ const AdvancedProjects = ({ isMobile }) => {
 								<Hastag>#</Hastag>Python
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Pynput Library
+								<Hastag>#</Hastag>Pynput
 							</TechItems>
 							<TechItems>
 								<Hastag>#</Hastag>VSCode
@@ -260,11 +259,6 @@ const AdvancedProjects = ({ isMobile }) => {
 								<Hastag>#</Hastag>Bash
 							</TechItems>
 						</Technology>
-						<ButtonContainer>
-							<a href='https://github.com/CrazyChickenDev/My-Keylogger' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
-									<Github />
-								</Button>
 						<ButtonContainer>
 							<a href='https://github.com/CrazyChickenDev/My-Keylogger' target='_blank' rel='noopener noreferrer'>
 								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
@@ -290,7 +284,7 @@ const AdvancedProjects = ({ isMobile }) => {
 					<Card>
 						<Title>SafeFolder-App</Title>
 						<Description>
-							Description
+						Description
 						</Description>
 						<Technology>
 							<TechItems>
@@ -329,7 +323,7 @@ const AdvancedProjects = ({ isMobile }) => {
 					<Card>
 						<Title>Graphical-Password Strategy</Title>
 						<Description>
-							Description
+						Description
 						</Description>
 						<Technology>
 							<TechItems>
@@ -339,7 +333,7 @@ const AdvancedProjects = ({ isMobile }) => {
 								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Framework
+								<Hastag>#</Hastag>Frameworks
 							</TechItems>
 						</Technology>
 						<Technology>
@@ -347,26 +341,28 @@ const AdvancedProjects = ({ isMobile }) => {
 								<Hastag>#</Hastag>Library
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>OS
+								<Hastag>#</Hastag> OS
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
-							<a href='https://github.com/CrazyChickenDev' target='_blank' rel='noopener noreferrer'>
+						<a href='https://github.com/CrazyChickenDev'
+								target='_blank'
+								rel='noopener noreferrer'>
 								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 									<Github />
 								</Button>
-							</a>
-							<a href='https://nwaobidaniel.me/' target='_blank' rel='noopener noreferrer'>
+						</a>
+						<a href='https://nwaobidaniel.me/' target='_blank' rel='noopener noreferrer'>
 								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 									<ExternalLinkOutline />
 								</Button>
-							</a>
+						</a>
 						</ButtonContainer>
 					</Card>
 				</LeftRow>
 				<RightRow text={false}>
 					<ImgContainer>
-						<Img src={GraphicalPasswordStrategy} alt='graphic-password' />
+						<Img src={GraphicalPasswordStrategy} alt='GraphicalPasswordStrategy' />
 					</ImgContainer>
 				</RightRow>
 			</Row>
@@ -374,23 +370,20 @@ const AdvancedProjects = ({ isMobile }) => {
 				<LeftRow text={false}>
 					<ImgContainer>
 						<Img src={BFPasswordCracker} alt='BFPasswordCracker' />
-						{/* {!isMobile && (
+						{!isMobile && (
 							<VideoContainer>
 								<video muted controls autoPlay loop>
-									<source
-										src={BFPasswordCrackerVideo}
-										type='video/mp4'
-									/>
+									<source src={BFPasswordCrackerVideo} type='video/mp4' />
 								</video>
 							</VideoContainer>
-						)} */}
+						)}
 					</ImgContainer>
 				</LeftRow>
 				<RightRow text={true}>
 					<Card>
 						<Title>BF Password Cracker</Title>
 						<Description>
-							Description
+						Description
 						</Description>
 						<Technology>
 							<TechItems>
@@ -403,7 +396,7 @@ const AdvancedProjects = ({ isMobile }) => {
 								<Hastag>#</Hastag>Framework
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Library
+								<Hastag>#</Hastag>OS
 							</TechItems>
 						</Technology>
 					</Card>
