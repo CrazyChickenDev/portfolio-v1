@@ -379,14 +379,14 @@ const BeginnerProjects = () => {
 								<Img src={Snake} alt='snake' />
 							</ImgContainer>
 							<TextContainer>
-								<Title>Snake Game</Title>
-								<Explanation>The classic snake game.</Explanation>
+								<Title>Blockchain</Title>
+								<Explanation>Description</Explanation>
 								<Technology>
 									<TechItems>
-										<Hastag>#</Hastag>Javascript
+										<Hastag>#</Hastag>Language
 									</TechItems>
 									<TechItems>
-										<Hastag>#</Hastag>Canvas
+										<Hastag>#</Hastag>OS
 									</TechItems>
 								</Technology>
 							</TextContainer>
