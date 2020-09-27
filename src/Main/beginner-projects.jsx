@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Github } from '@styled-icons/boxicons-logos';
 import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
-import Snake from '../assets/Upcoming.png';
-import City from '../assets/Upcoming.png';
+import Blockchain from '../assets/Upcoming.png';
+import GitHubApp from '../assets/Upcoming.png';
 import Candy from '../assets/Upcoming.png';
 import ToDo from '../assets/Upcoming.png';
 import SpaceBar from '../assets/Upcoming.png';
@@ -376,7 +376,7 @@ const BeginnerProjects = () => {
 								externalLink='https://github.com/CrazyChickenDev/'
 							/>
 							<ImgContainer>
-								<Img src={Snake} alt='snake' />
+								<Img src={Blockchain} alt='blockchain' />
 							</ImgContainer>
 							<TextContainer>
 								<Title>Blockchain</Title>
@@ -397,17 +397,17 @@ const BeginnerProjects = () => {
 								externalLink='https://github.com/CrazyChickenDev/'
 							/>
 							<ImgContainer>
-								<Img src={City} alt='city' />
+								<Img src={GitHubApp} alt='gitHubapp' />
 							</ImgContainer>
 							<TextContainer>
-								<Title>City Simulation</Title>
-								<Explanation>A city Simulation with dynamic car movement.</Explanation>
+								<Title>GitHub App</Title>
+								<Explanation>Description</Explanation>
 								<Technology>
 									<TechItems>
-										<Hastag>#</Hastag>Javascript
+										<Hastag>#</Hastag>Language
 									</TechItems>
 									<TechItems>
-										<Hastag>#</Hastag>Threejs
+										<Hastag>#</Hastag>Framework
 									</TechItems>
 								</Technology>
 							</TextContainer>
