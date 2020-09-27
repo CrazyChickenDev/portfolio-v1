@@ -14,7 +14,7 @@ import MachineLearning from '../assets/machine-learning.png';
 import Argonauts from '../assets/argonauts.png';
 import Weather from '../assets/weather.png';
 import Bitcoin from '../assets/bitcoin.png';
-import BurgerApp from '../assets/burger-app.png';
+import Portfolio from '../assets/demo.png';
 
 const Container = styled(motion.div)`
 	width: 100%;
@@ -194,32 +194,32 @@ const BeginnerProjects = () => {
 			<CardRow>
 				<Card>
 					<Link
-						githubLink='https://github.com/Achiaga/myBurgerApp'
-						externalLink='https://react-burger-app-maker.firebaseapp.com/'
+						githubLink='https://github.com/CrazyChickenDev/MyPortfolio'
+						externalLink='https://nwaobidaniel.me/'
 					/>
 					<ImgContainer>
-						<Img src={BurgerApp} alt='burger-app' />
+						<Img src={Portfolio} alt='portfolio' />
 					</ImgContainer>
 					<TextContainer>
-						<Title>BurgerApp</Title>
-						<Explanation>A web about posting your favorite games.</Explanation>
+						<Title>Portfolio</Title>
+						<Explanation>My Portfolio website created using ReactJs and deployed on Netlify</Explanation>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>React
+								<Hastag>#</Hastag>ReactJs
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Redux
+								<Hastag>#</Hastag>CSS
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>graphql
+								<Hastag>#</Hastag>JavaScript
 							</TechItems>
 						</Technology>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Firebase
+								<Hastag>#</Hastag>HTML
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Material-ui
+								<Hastag>#</Hastag>VSCode
 							</TechItems>
 						</Technology>
 					</TextContainer>
