@@ -8,6 +8,7 @@ import SafeFolderApp from '../assets/Upcoming.png';
 import BFPasswordCracker from '../assets/Upcoming.png';
 import { Github } from '@styled-icons/boxicons-logos';
 import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
+import BFPasswordCrackerVideo from '../assets/video.mov';
 
 const Container = styled(motion.div)`
 	padding-top: 2em;
@@ -365,7 +366,7 @@ const AdvancedProjects = ({ isMobile }) => {
 				</LeftRow>
 				<RightRow text={false}>
 					<ImgContainer>
-						<Img src={GraphicalPasswordStrategy} alt='graphicpassword' />
+						<Img src={GraphicalPasswordStrategy} alt='graphic-password' />
 					</ImgContainer>
 				</RightRow>
 			</Row>
@@ -377,7 +378,7 @@ const AdvancedProjects = ({ isMobile }) => {
 							<VideoContainer>
 								<video muted controls autoPlay loop>
 									<source
-										src=''
+										src={BFPasswordCrackerVideo}
 										type='video/mp4'
 									/>
 								</video>
@@ -399,7 +400,7 @@ const AdvancedProjects = ({ isMobile }) => {
 								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Library
+								<Hastag>#</Hastag>Framework
 							</TechItems>
 							<TechItems>
 								<Hastag>#</Hastag>Library
