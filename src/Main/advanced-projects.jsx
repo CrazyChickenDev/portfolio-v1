@@ -372,12 +372,12 @@ const AdvancedProjects = ({ isMobile }) => {
 			<Row>
 				<LeftRow text={false}>
 					<ImgContainer>
-						<Img src={AmmoTank} alt='ammo-tank' />
+						<Img src={BFPasswordCracker} alt='BFPasswordCracker' />
 						{/* {!isMobile && (
 							<VideoContainer>
 								<video muted controls autoPlay loop>
 									<source
-										src='https://bender-portfolio.s3.amazonaws.com/Grabacio%CC%81n+de+pantalla+2020-09-14+a+las+21.23.43.mov'
+										src=''
 										type='video/mp4'
 									/>
 								</video>
