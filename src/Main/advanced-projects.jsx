@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import Passwordlist from '../assets/passlist.png';
 import MarcoPolo from '../assets/marco-polo.png';
-import Wanteat from '../assets/wanteat.png';
-import NinjaSimulation from '../assets/ninja-simulation.png';
-import AmmoTank from '../assets/ammo-tank.png';
+import Keylogger from '../assets/Keylogger.png';
+import SafeFolderApp from '../assets/Upcoming.png';
+import  from '../assets/Upcoming.png';
 import { Github } from '@styled-icons/boxicons-logos';
 import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
 
@@ -260,8 +260,13 @@ const AdvancedProjects = ({ isMobile }) => {
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
-							<a href='https://wanteat.app/' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: 'palevioletred' }} transition={{ duration: 0.5 }}>
+							<a href='https://github.com/CrazyChickenDev/My-Keylogger' target='_blank' rel='noopener noreferrer'>
+								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
+									<Github />
+								</Button>
+						<ButtonContainer>
+							<a href='https://github.com/CrazyChickenDev/My-Keylogger' target='_blank' rel='noopener noreferrer'>
+								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 									<ExternalLinkOutline />
 								</Button>
 							</a>
@@ -270,49 +275,47 @@ const AdvancedProjects = ({ isMobile }) => {
 				</LeftRow>
 				<RightRow text={false}>
 					<ImgContainer>
-						<Img src={Wanteat} alt='wanteat' />
+						<Img src={Keylogger} alt='Keylogger.png' />
 					</ImgContainer>
 				</RightRow>
 			</Row>
 			<Row>
 				<LeftRow text={false}>
 					<ImgContainer>
-						<Img src={NinjaSimulation} alt='ninja-simulation' />
+						<Img src={SafeFolderApp} alt='SafeFolderApp' />
 					</ImgContainer>
 				</LeftRow>
 				<RightRow text={true}>
 					<Card>
-						<Title>Ninja Simulation</Title>
+						<Title>SafeFolder-App</Title>
 						<Description>
-							A threejs project to show graphically differents statistics' theories. So the user can visualize
-							them. The objective is to build a web that can take statics' theories as input and run them
-							graphically automatically.
+							Description
 						</Description>
 						<Technology>
 							<TechItems>
 								<Hastag>#</Hastag>Javascript
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Threejs
+								<Hastag>#</Hastag>Python
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Webpack
+								<Hastag>#</Hastag>Library
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Blender
+								<Hastag>#</Hastag>Library
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
 							<a
-								href='https://github.com/Achiaga/Analytics_simulations'
+								href='https://github.com/CrazyChickenDev'
 								target='_blank'
 								rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: 'palevioletred' }} transition={{ duration: 0.5 }}>
+								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 									<Github />
 								</Button>
 							</a>
-							<a href='https://analytics-simulations.vercel.app/' target='_blank' rel='noopener noreferrer'>
-								<Button whileHover={{ y: [0, -8, 0], color: 'palevioletred' }} transition={{ duration: 0.5 }}>
+							<a href='https://nwaobidaniel.me/' target='_blank' rel='noopener noreferrer'>
+								<Button whileHover={{ y: [0, -8, 0], color: '#ffc200' }} transition={{ duration: 0.5 }}>
 									<ExternalLinkOutline />
 								</Button>
 							</a>
