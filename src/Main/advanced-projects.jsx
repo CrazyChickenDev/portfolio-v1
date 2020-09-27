@@ -5,7 +5,7 @@ import Passwordlist from '../assets/passlist.png';
 import GraphicalPasswordStrategy from '../assets/Upcoming.png';
 import Keylogger from '../assets/Keylogger.png';
 import SafeFolderApp from '../assets/Upcoming.png';
-import  from '../assets/Upcoming.png';
+import BFPasswordCracker from '../assets/Upcoming.png';
 import { Github } from '@styled-icons/boxicons-logos';
 import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
 
@@ -293,16 +293,16 @@ const AdvancedProjects = ({ isMobile }) => {
 						</Description>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Javascript
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Python
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Library
+								<Hastag>#</Hastag>Framework
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Library
+								<Hastag>#</Hastag>OS
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
@@ -332,13 +332,13 @@ const AdvancedProjects = ({ isMobile }) => {
 						</Description>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Library
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Library
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Library
+								<Hastag>#</Hastag>Framework
 							</TechItems>
 						</Technology>
 						<Technology>
@@ -346,7 +346,7 @@ const AdvancedProjects = ({ isMobile }) => {
 								<Hastag>#</Hastag>Library
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Library
+								<Hastag>#</Hastag>OS
 							</TechItems>
 						</Technology>
 						<ButtonContainer>
@@ -387,24 +387,22 @@ const AdvancedProjects = ({ isMobile }) => {
 				</LeftRow>
 				<RightRow text={true}>
 					<Card>
-						<Title>Ammo Tank</Title>
+						<Title>BF Password Cracker</Title>
 						<Description>
-							A Threejs project about a dynamic tank with physics which can shoot balls to boxes, jump over
-							ramps and collide with other objects. It is not currently online but you can see a short demo of
-							it.
+							Description
 						</Description>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Javascript
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Threejs
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Ammojs
+								<Hastag>#</Hastag>Library
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Webpack
+								<Hastag>#</Hastag>Library
 							</TechItems>
 						</Technology>
 					</Card>
