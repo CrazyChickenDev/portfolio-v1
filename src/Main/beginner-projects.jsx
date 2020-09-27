@@ -9,9 +9,9 @@ import Candy from '../assets/Upcoming.png';
 import ToDo from '../assets/Upcoming.png';
 import SpaceBar from '../assets/Upcoming.png';
 import RGB from '../assets/Upcoming.png';
-import Error404 from '../assets/Upcoming.png';
-import MachineLearning from '../assets/Upcoming.png';
-import Argonauts from '../assets/Upcoming.png';
+import RedditBot from '../assets/Upcoming.png';
+import ToDoApp from '../assets/Upcoming.png';
+import TwitterBot from '../assets/Upcoming.png';
 import Weather from '../assets/Upcoming.png';
 import MP3Player from '../assets/Upcoming.png';
 import Portfolio from '../assets/demo.png';
@@ -226,7 +226,7 @@ const BeginnerProjects = () => {
 				</Card>
 				<Card>
 					<Link
-						githubLink='https://github.com/CrazyChickenDev'
+						githubLink='https://github.com/CrazyChickenDev/'
 						externalLink='https://nwaobidaniel.me/'
 					/>
 					<ImgContainer>
@@ -234,16 +234,16 @@ const BeginnerProjects = () => {
 					</ImgContainer>
 					<TextContainer>
 						<Title>MP3 Player</Title>
-						<Explanation>A MERN web about crypto price with users dynamic interaction.</Explanation>
+						<Explanation>Description</Explanation>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>React
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Firebase
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Heroku
+								<Hastag>#</Hastag>Framework
 							</TechItems>
 							<TechItems>
 								<Hastag>#</Hastag>Api
@@ -251,10 +251,10 @@ const BeginnerProjects = () => {
 						</Technology>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>graphql
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>CSS
+								<Hastag>#</Hastag>OS
 							</TechItems>
 						</Technology>
 					</TextContainer>
@@ -263,48 +263,48 @@ const BeginnerProjects = () => {
 			<CardRow>
 				<Card>
 					<Link
-						githubLink='https://github.com/CrazyChickenDev'
-						externalLink='https://github.com/CrazyChickenDev'
+						githubLink='https://github.com/CrazyChickenDev/'
+						externalLink='https://github.com/CrazyChickenDev/'
 					/>
 					<ImgContainer>
-						<Img src={MachineLearning} alt='machine-learning' />
+						<Img src={ToDoApp} alt='todo-app' />
 					</ImgContainer>
 					<TextContainer>
-						<Title>Web Design</Title>
-						<Explanation>A simple web design about a machine learning company.</Explanation>
+						<Title>To-Do App</Title>
+						<Explanation>Description</Explanation>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>React
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>CSS
+								<Hastag>#</Hastag>Framework
 							</TechItems>
 						</Technology>
 					</TextContainer>
 				</Card>
 				<Card>
 					<Link
-						githubLink='https://github.com/Achiaga/Weather-App'
-						externalLink='https://achiaga.github.io/Weather-App/'
+						githubLink='https://github.com/CrazyChickenDev/'
+						externalLink='https://github.com/CrazyChickenDev/'
 					/>
 					<ImgContainer>
 						<Img src={Weather} alt='weather' />
 					</ImgContainer>
 					<TextContainer>
 						<Title>Weather</Title>
-						<Explanation>A web about city weather</Explanation>
+						<Explanation>Description</Explanation>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>React
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Redux
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>API
+								<Hastag>#</Hastag>Framework
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>CSS
+								<Hastag>#</Hastag>OS
 							</TechItems>
 						</Technology>
 					</TextContainer>
@@ -313,48 +313,48 @@ const BeginnerProjects = () => {
 			<CardRow>
 				<Card>
 					<Link
-						githubLink='https://github.com/Achiaga/Argonauts'
-						externalLink='https://argonauts-gamers.herokuapp.com/'
+						githubLink='https://github.com/CrazyChickenDev/'
+						externalLink='https://github.com/CrazyChickenDev/'
 					/>
 					<ImgContainer>
-						<Img src={Argonauts} alt='argonauts' />
+						<Img src={TwitterBot} alt='twitterbot' />
 					</ImgContainer>
 					<TextContainer>
-						<Title>Argonauts</Title>
-						<Explanation>A web about posting your favorite games.</Explanation>
+						<Title>Twitter Bot</Title>
+						<Explanation>Description</Explanation>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>Javascript
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>Heroku
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>CSS
+								<Hastag>#</Hastag>Frameworks
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>API
+								<Hastag>#</Hastag>OS
 							</TechItems>
 						</Technology>
 					</TextContainer>
 				</Card>
 				<Card>
 					<Link
-						githubLink='https://github.com/Achiaga/Error404_PureAnimation'
-						externalLink='https://error404.vercel.app/'
+						githubLink='https://github.com/CrazyChickenDev/'
+						externalLink='https://github.com/CrazyChickenDev/'
 					/>
 					<ImgContainer>
-						<Img src={Error404} alt='error-404' />
+						<Img src={RedditBot} alt='redditbot' />
 					</ImgContainer>
 					<TextContainer>
-						<Title>Error 404</Title>
-						<Explanation>An Error 404 page inspired in "Mr. Robot".</Explanation>
+						<Title>Reddit Bot</Title>
+						<Explanation>Description</Explanation>
 						<Technology>
 							<TechItems>
-								<Hastag>#</Hastag>React
+								<Hastag>#</Hastag>Language
 							</TechItems>
 							<TechItems>
-								<Hastag>#</Hastag>CSS
+								<Hastag>#</Hastag>Frameworks
 							</TechItems>
 						</Technology>
 					</TextContainer>
@@ -372,8 +372,8 @@ const BeginnerProjects = () => {
 					<CardRow>
 						<Card>
 							<Link
-								githubLink='https://github.com/Achiaga/SnakeJs'
-								externalLink='https://snake-js.vercel.app/'
+								githubLink='https://github.com/CrazyChickenDev/'
+								externalLink='https://github.com/CrazyChickenDev/'
 							/>
 							<ImgContainer>
 								<Img src={Snake} alt='snake' />
@@ -393,8 +393,8 @@ const BeginnerProjects = () => {
 						</Card>
 						<Card>
 							<Link
-								githubLink='https://github.com/Achiaga/city-simulation'
-								externalLink='https://city-simulations.vercel.app/'
+								githubLink='https://github.com/CrazyChickenDev/'
+								externalLink='https://github.com/CrazyChickenDev/'
 							/>
 							<ImgContainer>
 								<Img src={City} alt='city' />
@@ -416,8 +416,8 @@ const BeginnerProjects = () => {
 					<CardRow>
 						<Card>
 							<Link
-								githubLink='https://github.com/Achiaga/CandyShop'
-								externalLink='https://candy-shop.vercel.app/'
+								githubLink='https://github.com/CrazyChickenDev/'
+								externalLink='https://github.com/CrazyChickenDev/'
 							/>
 							<ImgContainer>
 								<Img src={Candy} alt='candy' />
@@ -437,8 +437,8 @@ const BeginnerProjects = () => {
 						</Card>
 						<Card>
 							<Link
-								githubLink='https://github.com/Achiaga/To-Do-List'
-								externalLink='https://to-do-list-tau.vercel.app/'
+								githubLink='https://github.com/CrazyChickenDev/'
+								externalLink='https://github.com/CrazyChickenDev/'
 							/>
 							<ImgContainer>
 								<Img src={ToDo} alt='to-do' />
@@ -463,8 +463,8 @@ const BeginnerProjects = () => {
 					<CardRow>
 						<Card>
 							<Link
-								githubLink='https://github.com/Achiaga/SpaceBar-Javascript-Canvas'
-								externalLink='https://spacebar-js.vercel.app/'
+								githubLink='https://github.com/CrazyChickenDev/'
+								externalLink='https://github.com/CrazyChickenDev/'
 							/>
 							<ImgContainer>
 								<Img src={SpaceBar} alt='space-bar' />
@@ -484,8 +484,8 @@ const BeginnerProjects = () => {
 						</Card>
 						<Card>
 							<Link
-								githubLink='https://github.com/Achiaga/RGB-Game'
-								externalLink='https://rgb-game.vercel.app/'
+								githubLink='https://github.com/CrazyChickenDev/'
+								externalLink='https://github.com/CrazyChickenDev/'
 							/>
 							<ImgContainer>
 								<Img src={RGB} alt='rgb-game' />
