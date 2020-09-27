@@ -5,10 +5,10 @@ import { Github } from '@styled-icons/boxicons-logos';
 import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
 import Blockchain from '../assets/Upcoming.png';
 import GitHubApp from '../assets/Upcoming.png';
-import Candy from '../assets/Upcoming.png';
+import CrazyKernel from '../assets/Upcoming.png';
 import ToDo from '../assets/Upcoming.png';
-import SpaceBar from '../assets/Upcoming.png';
-import RGB from '../assets/Upcoming.png';
+import CrazyOs from '../assets/Upcoming.png';
+import Docker from '../assets/Upcoming.png';
 import RedditBot from '../assets/Upcoming.png';
 import ToDoApp from '../assets/Upcoming.png';
 import TwitterBot from '../assets/Upcoming.png';
@@ -420,17 +420,17 @@ const BeginnerProjects = () => {
 								externalLink='https://github.com/CrazyChickenDev/'
 							/>
 							<ImgContainer>
-								<Img src={Candy} alt='candy' />
+								<Img src={CrazyKernel} alt='crazy-kernel' />
 							</ImgContainer>
 							<TextContainer>
-								<Title>Candy Store</Title>
-								<Explanation>Candy store web simple design.</Explanation>
+								<Title>Crazy Kernel</Title>
+								<Explanation>Description</Explanation>
 								<Technology>
 									<TechItems>
-										<Hastag>#</Hastag>HTML
+										<Hastag>#</Hastag>Language
 									</TechItems>
 									<TechItems>
-										<Hastag>#</Hastag>CSS
+										<Hastag>#</Hastag>OS
 									</TechItems>
 								</Technology>
 							</TextContainer>
@@ -445,7 +445,7 @@ const BeginnerProjects = () => {
 							</ImgContainer>
 							<TextContainer>
 								<Title>To-Do List</Title>
-								<Explanation>A simple to-do list.</Explanation>
+								<Explanation>Description</Explanation>
 								<Technology>
 									<TechItems>
 										<Hastag>#</Hastag>HTML
@@ -467,17 +467,17 @@ const BeginnerProjects = () => {
 								externalLink='https://github.com/CrazyChickenDev/'
 							/>
 							<ImgContainer>
-								<Img src={SpaceBar} alt='space-bar' />
+								<Img src={CrazyOs} alt='crazy-os' />
 							</ImgContainer>
 							<TextContainer>
-								<Title>Space Bar Game</Title>
-								<Explanation>The classic space bar game.</Explanation>
+								<Title>Crazy OS</Title>
+								<Explanation>Description</Explanation>
 								<Technology>
 									<TechItems>
-										<Hastag>#</Hastag>Javascript
+										<Hastag>#</Hastag>Language
 									</TechItems>
 									<TechItems>
-										<Hastag>#</Hastag>CSS
+										<Hastag>#</Hastag>Framework
 									</TechItems>
 								</Technology>
 							</TextContainer>
@@ -488,17 +488,17 @@ const BeginnerProjects = () => {
 								externalLink='https://github.com/CrazyChickenDev/'
 							/>
 							<ImgContainer>
-								<Img src={RGB} alt='rgb-game' />
+								<Img src={Docker} alt='docker' />
 							</ImgContainer>
 							<TextContainer>
 								<Title>RGB Game</Title>
-								<Explanation>A simple game to practice your RGB skills.</Explanation>
+								<Explanation>Description</Explanation>
 								<Technology>
 									<TechItems>
-										<Hastag>#</Hastag>Javascript
+										<Hastag>#</Hastag>Language
 									</TechItems>
 									<TechItems>
-										<Hastag>#</Hastag>CSS
+										<Hastag>#</Hastag>Language
 									</TechItems>
 								</Technology>
 							</TextContainer>
