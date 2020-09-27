@@ -3,17 +3,17 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Github } from '@styled-icons/boxicons-logos';
 import { ExternalLinkOutline } from '@styled-icons/evaicons-outline';
-import Snake from '../assets/snake.png';
-import City from '../assets/city-simulation.png';
-import Candy from '../assets/candy-shop.png';
-import ToDo from '../assets/to-do.png';
-import SpaceBar from '../assets/space-bar.png';
-import RGB from '../assets/rgb-game.png';
-import Error404 from '../assets/error-404.png';
-import MachineLearning from '../assets/machine-learning.png';
-import Argonauts from '../assets/argonauts.png';
-import Weather from '../assets/weather.png';
-import Bitcoin from '../assets/bitcoin.png';
+import Snake from '../assets/Upcoming.png';
+import City from '../assets/Upcoming.png';
+import Candy from '../assets/Upcoming.png';
+import ToDo from '../assets/Upcoming.png';
+import SpaceBar from '../assets/Upcoming.png';
+import RGB from '../assets/Upcoming.png';
+import Error404 from '../assets/Upcoming.png';
+import MachineLearning from '../assets/Upcoming.png';
+import Argonauts from '../assets/Upcoming.png';
+import Weather from '../assets/Upcoming.png';
+import MP3Player from '../assets/Upcoming.png';
 import Portfolio from '../assets/demo.png';
 
 const Container = styled(motion.div)`
@@ -226,14 +226,14 @@ const BeginnerProjects = () => {
 				</Card>
 				<Card>
 					<Link
-						githubLink='https://github.com/Achiaga/bitcoinNotification'
-						externalLink='https://cryptoaddicts-00.firebaseapp.com/'
+						githubLink='https://github.com/CrazyChickenDev'
+						externalLink='https://nwaobidaniel.me/'
 					/>
 					<ImgContainer>
-						<Img src={Bitcoin} alt='bitcoin' />
+						<Img src={MP3Player} alt='MP3Player' />
 					</ImgContainer>
 					<TextContainer>
-						<Title>Crypto</Title>
+						<Title>MP3 Player</Title>
 						<Explanation>A MERN web about crypto price with users dynamic interaction.</Explanation>
 						<Technology>
 							<TechItems>
@@ -263,8 +263,8 @@ const BeginnerProjects = () => {
 			<CardRow>
 				<Card>
 					<Link
-						githubLink='https://github.com/Achiaga/MachineLearningPage'
-						externalLink='https://github.com/Achiaga/MachineLearningPage'
+						githubLink='https://github.com/CrazyChickenDev'
+						externalLink='https://github.com/CrazyChickenDev'
 					/>
 					<ImgContainer>
 						<Img src={MachineLearning} alt='machine-learning' />
