@@ -116,7 +116,7 @@ const Title = styled.h4`
 	font-size: 24px;
 	margin: 0;
 	padding: 0;
-	color: palevioletred;
+	color: #ffc200;
 	font-family: 'Calibre', sans-serif;
 	@media only screen and (max-width: 450px) {
 		font-size: 20px;
@@ -157,7 +157,7 @@ const TechItems = styled.span`
 `;
 
 const Hastag = styled.span`
-	color: palevioletred;
+	color: #ffc200;
 `;
 
 const ButtonContainer = styled.div`
