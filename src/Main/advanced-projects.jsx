@@ -276,7 +276,7 @@ const AdvancedProjects = ({ isMobile }) => {
 				</LeftRow>
 				<RightRow text={false}>
 					<ImgContainer>
-						<Img src={Keylogger} alt='Keylogger.png' />
+						<Img src={Keylogger} alt='Keylogger' />
 					</ImgContainer>
 				</RightRow>
 			</Row>
