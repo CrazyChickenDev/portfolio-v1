@@ -71,7 +71,7 @@ const Sidebar = ({ handleToast }) => {
 			<LeftSideContainer>
 				<SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
 					<a
-						href='https://drive.google.com/file/d/1a0KJGhKGGBeNZbITsDPOVPY9EcHBQC0y/view?usp=sharing'
+						href='https://drive.google.com/file/d/1IjCfJSqBF4yPLEF1eW3ZSNTodt-eSYJp/view?usp=sharing'
 						target='_blank'
 						rel='noopener noreferrer'>
 						<FilePdf />
