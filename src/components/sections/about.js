@@ -142,41 +142,40 @@ const About = () => {
           <div>
             <p>
               {' '}
-              Hello!I 'm Daniel, a computer engineer and cyber-security analyst based in Edo State,
+              Hello! I'm Daniel, a computer engineer and cyber-security analyst based in Edo State,
               NG.
             </p>
             <p>
-              I 'm an open-source enthusiast with a slight interest in front-end web development and
-              currently a student from Nigeria. I' m an ethical hacker, pentester, red - teamer and
-              a self - taught cyber - security analyst who loves being offensive.I have a profound
-              passion for programming, security researching, robotics and hardware.I enjoy creating
+              I'm an open-source enthusiast with a slight interest in front-end web development and
+              currently a student from Nigeria. I'm an ethical hacker, pentester, red-teamer and a
+              self-taught cyber-security analyst who loves being offensive. I have a profound
+              passion for programming, security researching, robotics and hardware. I enjoy creating
               things that live both on the internet and in reality, whether that be websites,
               applications, scripts, embedded systems or anything in between.{' '}
             </p>
             <p>
-              Shortly after I graduated Highschool, I became overly engrossed in the cyber -
-              security space and the vast amount of knowledge it holds.I decided to enroll for
-              computer engineering at{' '}
-              <a href="https://www.uniben.edu"> University of Benin(UNIBEN) </a>, I joined the
-              developer team at <a href="https://www.muzzlab.com"> Muzzlab </a> where I worked on a
-              wide variety of interesting and meaningful projects as an Internet Security Analyst.{' '}
+              Shortly after I graduated Highschool, I became overly engrossed in the cyber- security
+              space and the vast amount of knowledge it holds.I decided to enroll for computer
+              engineering at <a href="https://www.uniben.edu"> University of Benin(UNIBEN) </a>, I
+              joined the developer team at <a href="https://www.muzzlab.com"> Muzzlab </a> where I
+              worked on a wide variety of interesting and meaningful projects as an Internet
+              Security Analyst.{' '}
             </p>
             <p>
-              I 'm an ethical hacker, pentester, red-teamer and a self-taught cyber-security analyst
+              I'm an ethical hacker, pentester, red-teamer and a self-taught cyber-security analyst
               who loves being offensive. I have a profound passion for programming, security
               researching, robotics and hardware.I enjoy creating things that live both on the
               internet and in reality, whether that be websites, applications, scripts, embedded
               systems or anything in between.{' '}
             </p>
             <p>
-              Somethings you 'll likely find me doing are working and creating things with
+              Somethings you'll likely find me doing are working and creating things with
               microcontrollers and implementing IoT in components, playing video games, customising
               gadgets and finding vulnerabilities in systems.A goal of mine is to build products
-              that provide pixel - perfect, user - friendly, security efficient, performant
-              experiences.I go by the alter ego 'CrazyChickenDev or 0x00CCSec' and I love breaking
-              into stuff!
+              that provide pixel-perfect, user-friendly, security efficient, performant experiences.
+              I go by the alter ego 'CrazyChickenDev or 0x00CCSec' and I love breaking into stuff!
             </p>
-            <p> Here are a few technologies I 've been working with recently:</p>{' '}
+            <p> Here are a few technologies I've been working with recently:</p>{' '}
           </div>
           <ul className="skills-list">
             {' '}
