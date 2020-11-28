@@ -54,4 +54,4 @@ I value keeping my site open source, but as you all know, _**plagiarism is bad**
    npm run serve
    ```
 
-   Credits to [Achiaga](https://github.com/Achiaga) and [Brittany Chiang](https://brittanychiang.com/)
+   Credits to [Achiaga](https://github.com/Achiaga).
